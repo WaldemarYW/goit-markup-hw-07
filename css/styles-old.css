@@ -343,7 +343,7 @@ a {
   margin-left: -24px;
 }
 .team-social-li {
-  flex-basis: calc(100%-4 / 24px);
+  flex-basis: calc(100%-3 / 24px);
   margin-left: 24px;
 }
 .team-social-link {
