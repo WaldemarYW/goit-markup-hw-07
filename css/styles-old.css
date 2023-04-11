@@ -282,7 +282,7 @@ a {
 
 .about-flex-container {
   display: flex;
-  /* flex-wrap: wrap; */
+  flex-wrap: wrap;
   margin-left: -24px;
 }
 

@@ -302,7 +302,26 @@ body.modal-open {
   display: none;
 }
 /* ===========================about */
-
+/* ====================================WHAT WE DO */
+.what-going-section {
+  padding-bottom: 120px;
+}
+.what-doing-flex {
+  display: none;
+  flex-wrap: wrap;
+  margin-left: -24px;
+}
+.li-what-goin {
+  flex-basis: calc(100% / 3-24px);
+  margin-left: 24px;
+}
+.h-doing-header {
+  display: none;
+}
+.off {
+  display: none;
+}
+/* ============================what we do */
 /* =======================================TEAM */
 .team-section {
   padding-top: 96px;
@@ -502,6 +521,7 @@ body.modal-open {
   width: 40px;
   height: 40px;
   outline: none;
+  cursor: pointer;
 
   transition-property: background-color;
   transition-duration: 250ms;
@@ -521,16 +541,16 @@ body.modal-open {
 /* ------------------Foot form */
 .foot-form {
   display: flex;
+  position: relative;
 }
 
 .subscribe-title {
   font-weight: 500;
-  margin-bottom: 16px;
   color: var(--white-color);
 }
 .subscribe-input {
   height: 40px;
-
+  width: 100%;
   display: inline-block;
   border: 1px solid #ffffff;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
@@ -541,9 +561,11 @@ body.modal-open {
   color: var(--white-color);
   background-color: transparent;
   outline: none;
+  cursor: pointer;
 
   padding-left: 16px;
   margin-bottom: 16px;
+  margin-top: 16px;
 
   transition-property: border;
   transition-duration: 250ms;
