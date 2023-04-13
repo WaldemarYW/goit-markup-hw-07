@@ -114,17 +114,23 @@
     justify-content: center;
   }
   .subscribe-input {
+    margin-left: -10px;
     margin-top: 0;
     margin-bottom: 0;
     display: block;
   }
+
   .foot-social-media {
     margin-bottom: 0;
+    align-items: start;
+  }
+  .logo-block {
+    align-items: start;
   }
   .sub-lable {
     position: absolute;
     top: -100%;
-    left: 0;
+    left: -10px;
   }
   .foot-form {
     flex-direction: row;
@@ -167,15 +173,17 @@
 
   .mob-menu-container.is-open {
     display: flex;
+    width: 100vw;
+    height: 100vh;
     flex-direction: column;
     flex-grow: 1;
-    justify-content: flex-start;
+    justify-content: space-between;
     align-items: flex-start;
   }
   .h-title-nav,
   .big-number {
     font-weight: 700;
-    font-size: 36px;
+    font-size: 32px;
     line-height: 1.11;
     letter-spacing: 0.02em;
   }
@@ -188,11 +196,11 @@
     margin-bottom: 40px;
   }
   .addres-menu {
+    margin-top: auto;
     font-size: 12px;
     line-height: 1.16;
 
     letter-spacing: 0.04em;
-    margin-top: auto;
   }
   .address-list {
     display: flex;
@@ -241,6 +249,16 @@
   .container {
     width: 1158px;
   }
+  .header-size {
+    padding-top: 24px;
+    padding-bottom: 24px;
+  }
+  .hi-title {
+    padding-left: 400px;
+    padding-right: 400px;
+
+    margin-bottom: 48px;
+  }
   .p-title {
     width: 264px;
   }
@@ -274,7 +292,7 @@
     margin-left: 40px;
   }
   .link-active::after {
-    top: 37px;
+    top: 45px;
   }
   .logo-block {
     margin-bottom: 0;
